@@ -11,6 +11,7 @@ div{
 .starter-template {
   padding: 3rem 1.5rem;
   text-align: center;
+
 }
 
 .spinner-border {
@@ -38,6 +39,18 @@ div{
 .navbar-brand{
   color: pink;
 }
+.navbar-brand:hover{
+  color:black;
+  font-weight:strong;
+}
+.nav-item a{
+  color:black;
+}
+nav a:hover{
+  color:pink;
+  font-weight:strong;
+}
+
 .btn-light{
   color: pink;
 }
