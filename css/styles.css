@@ -82,3 +82,18 @@ div{
 .card-text2{
   color:pink;
 }
+
+.btn-secondary{
+  background-color: white;
+  border-color: white;
+  color: pink;
+}
+.dropdown-item{
+  color: pink;
+}
+.col-sm{
+  text-align: center;
+}
+.stretched-link{
+  color: white;
+}
