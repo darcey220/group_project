@@ -42,6 +42,10 @@
             <a class="nav-link" href="signup.html">Sign Up</a>
           </li>
         </ul>
+        <form class="form-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-dark my-2 my-sm-0" type="submit">Search</button>
+        </form>
       </div>
     </nav>
     <form>
@@ -93,7 +97,7 @@
     <div class="form-check">
       <input class="form-check-input" type="checkbox" id="gridCheck">
       <label class="form-check-label" for="gridCheck">
-        I have read and understood the <u>Privacy policy, Cookies policy and terms and conditions</u>
+        I have read and understood the <a href>Privacy policy</a>, <a href>Cookies policy</a> and <a href>terms and conditions</a>
       </label>
     </div>
   </div>
@@ -105,7 +109,20 @@
       </label>
     </div>
   </div>
-  <button type="submit" class="btn btn-primary su-button">Sign up!</button>
+
+  <button  type="submit" class="btn btn-primary su-button" onclick="myFunction()">Sign up!</button>
+  <script>
+  function myFunction() {
+    alert("Thanks For Subscribing!");
+  }
+  </script>
+
 </form>
 </div>
-A
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+<script src="https://getbootstrap.com/docs/4.1/assets/js/vendor/popper.min.js"></script>
+<script src="https://getbootstrap.com/docs/4.1/dist/js/bootstrap.min.js"></script>
+
+</html>
