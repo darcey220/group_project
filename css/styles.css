@@ -14,6 +14,12 @@ h1{
   font-family: freestyle script;
   font-size: 5rem
 }
+h2{
+  font-family: freestyle script;
+  font-size: 1.5em
+
+}
+
 div{
   color: white;
 }
@@ -56,6 +62,9 @@ div{
 }
 .navbar-brand{
   color: pink;
+  padding-bottom: 0px;
+  padding-top: 8px;
+  margin-right: 10px;
 }
 .navbar-brand:hover{
   color:black;
@@ -83,6 +92,10 @@ div{
 .btn-light2:hover{
   color:pink;
 }
+.card-text2{
+  color:pink;
+}
+
 .btn-secondary{
   background-color: white;
   border-color: white;
