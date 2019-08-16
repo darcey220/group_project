@@ -132,4 +132,11 @@ div{
 }
 .footer{
   background-color:black;
+  
+.su-button{
+  background-color: white;
+}
+.searchb{
+  background-color: pink;
+  border-color: pink;
 }
