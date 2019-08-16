@@ -1,6 +1,7 @@
 body {
   padding-top: 5rem;
   background-color: pink;
+  overflow-x:hidden;
 }
 
 .body-aboutus{
@@ -132,7 +133,9 @@ div{
 }
 .footer{
   background-color:white;
-  color:pink
+  color:pink;
+  text-align:center;
+  padding:30px;
 }
 .link-white{
   color:white;
