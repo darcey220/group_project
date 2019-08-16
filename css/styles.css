@@ -117,3 +117,15 @@ div{
 .h3{
   padding-left: 100px;
 }
+.review{
+  color: white;
+}
+.card{
+  margin:auto;
+  background-color: pink;
+  color: white;
+}
+.btn2{
+  background-color: white;
+  color: pink;
+}
