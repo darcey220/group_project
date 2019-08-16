@@ -79,3 +79,8 @@ div{
 .btn-light2:hover{
   color:pink;
 }
+.btn-secondary{
+  background-color: white;
+  border-color: white;
+  color: pink;
+}
