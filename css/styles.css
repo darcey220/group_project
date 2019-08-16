@@ -131,8 +131,9 @@ div{
   color: pink;
 }
 .footer{
-  background-color:black;
-  
+  background-color:white;
+  color:pink
+}
 .su-button{
   background-color: white;
 }
