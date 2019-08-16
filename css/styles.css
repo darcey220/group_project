@@ -2,6 +2,14 @@ body {
   padding-top: 5rem;
   background-color: pink;
 }
+
+.body-aboutus{
+  background-image: url(../concert1.jpg);
+  background-color:black;
+  background-repeat:repeat-x, no-repeat;
+  align-items: center;
+}
+
 h1{
   font-family: freestyle script;
   font-size: 5rem
@@ -13,6 +21,11 @@ div{
   padding: 3rem 1.5rem;
   text-align: center;
 
+}
+
+.lead{
+  font-style: strong;
+  text-shadow: black;
 }
 
 .spinner-border {
@@ -44,14 +57,25 @@ div{
   color:black;
   font-weight:strong;
 }
-.nav-item a{
+
+.nav-item a {
   color:black;
 }
-nav a:hover{
+
+.nav-item a:hover{
   color:pink;
   font-weight:strong;
 }
 
 .btn-light{
   color: pink;
+}
+
+.btn-light2{
+  background-color: white;
+  color:black;
+}
+
+.btn-light2:hover{
+  color:pink;
 }
