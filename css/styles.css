@@ -27,6 +27,10 @@ div{
   font-style: strong;
   text-shadow: black;
 }
+.margin{
+  margin-left: 300px;
+  margin-right: 300px;
+}
 
 .spinner-border {
   position: absolute;
@@ -92,4 +96,9 @@ div{
 }
 .stretched-link{
   color: white;
+}
+.btn-primary{
+  background-color: white;
+  border-color: white;
+  color: pink;
 }
